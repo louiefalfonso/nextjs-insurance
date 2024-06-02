@@ -100,8 +100,7 @@ export default function Footer() {
             <div className="site-footer__bottom">
                 <div className="container">
                     <div className="site-footer__bottom-inner">
-                        <p className="site-footer__bottom-text">Copyright © 2024 Sonchoy by <Link href="#">thememx.</Link> All
-                            Rights Reserved</p>
+                        <p className="site-footer__bottom-text">Copyright © 2024. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
