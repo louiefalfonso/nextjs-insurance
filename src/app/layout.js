@@ -1,4 +1,4 @@
-
+import "../../node_modules/react-modal-video/css/modal-video.css";
 import "../../public/assets/css/sonchoy.css"
 import "../../public/assets/css/sonchoy-responsive.css"
 import 'swiper/css'
