@@ -1,6 +1,6 @@
 import Link from "next/link"
-import Menu from "../Menu"
-import MobileMenu from "../MobileMenu"
+import Menu from "./Menu"
+import MobileMenu from "./MobileMenu"
 
 export default function Header({ scroll, isMobileMenu, handleMobileMenu }) {
     return (
