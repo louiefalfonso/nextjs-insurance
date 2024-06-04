@@ -3,6 +3,8 @@ import Layout from "@/components/layout/Layout"
 import Brand from "@/components/sections/Brand";
 import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
+import Funfacts from "@/components/sections/Funfacts";
+import Portfolio from "@/components/sections/Portfolio";
 
 export default function Home() {
   return (
@@ -11,7 +13,9 @@ export default function Home() {
               <Banner/>
               <Brand/> 
               <About/>
-              <Services/>  
+              <Services/>
+              <Funfacts/> 
+              <Portfolio/>
         </Layout>
 
     </div>
