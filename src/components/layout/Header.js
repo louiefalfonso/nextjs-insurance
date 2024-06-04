@@ -15,7 +15,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <i className="icon-maps-and-flags"></i>
                             </div>
                             <div className="text">
-                                <p>465 NT Road. North West, England</p>
+                                <p>6811 Ayala Avenue,Makati City, Philippines, 1226</p>
                             </div>
                         </li>
                         <li>
@@ -23,7 +23,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <i className="icon-envelope"></i>
                             </div>
                             <div className="text">
-                                <p><Link href="mailto:needhelpazent@gmail.cpm">needhelpazent@gmail.cpm</Link></p>
+                                <p><Link href="/">philamlife-group@gmail.com</Link></p>
                             </div>
                         </li>
                     </ul>

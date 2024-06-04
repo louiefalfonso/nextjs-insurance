@@ -18,7 +18,7 @@ export default function Services() {
                         <div className="container">
                             <div className="section-title text-center">
                                 <div className="section-title__tagline-box">
-                                    <p className="section-title__tagline">SONCHOY POPULAR SERVICE</p>
+                                    <p className="section-title__tagline">PHILAM-LIFE GROUP SERVICES</p>
                                 </div>
                                 <h2 className="section-title__title">Amazing Products
                                     <br/> that Protect and Reward</h2>

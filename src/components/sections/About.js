@@ -44,7 +44,7 @@ export default function About() {
                                 <div className="about-two__right">
                                     <div className="section-title text-left">
                                         <div className="section-title__tagline-box">
-                                            <p className="section-title__tagline">KNOW ABOUT PHILAM-LIFE</p>
+                                            <p className="section-title__tagline">KNOW MORE ABOUT PHILAM-LIFE GROUP</p>
                                         </div>
                                         <h2 className="section-title__title">Choose Your Insurance
                                             <br/> Service Company</h2>

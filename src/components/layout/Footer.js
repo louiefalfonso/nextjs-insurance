@@ -16,8 +16,7 @@ export default function Footer() {
                                         <Link href="index"><img src="assets/images/resources/Philam_Life_logo-white.png"
                                                 alt=""/></Link>
                                     </div>
-                                    <p className="footer-widget__about-text">Address 301 Princes Street, Ei className
-                                        <br/> Mahall Damietta Egypt-104</p>
+                                    <p className="footer-widget__about-text">Main Address: BPI-Philam Life Makati, 6811 Ayala Avenue,<br/> Makati City, Philippines, 1226</p>
                                     <div className="footer-widget__emergency-call">
                                         <Link href="tel:+134353353545">+1 343 5335 3545</Link>
                                     </div>
@@ -100,7 +99,7 @@ export default function Footer() {
             <div className="site-footer__bottom">
                 <div className="container">
                     <div className="site-footer__bottom-inner">
-                        <p className="site-footer__bottom-text">Copyright © 2024. All Rights Reserved</p>
+                        <p className="site-footer__bottom-text">Copyright © 2024. AIA Group Limited and its subsidiaries All Rights Reserved</p>
                     </div>
                 </div>
             </div>

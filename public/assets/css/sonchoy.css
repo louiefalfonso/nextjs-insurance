@@ -30,7 +30,7 @@
   --sonchoy-gray-rgb: 118, 118, 118;
   --sonchoy-white: #ffffff;
   --sonchoy-white-rgb: 255, 255, 255;
-  --sonchoy-base: #6222cc;
+  --sonchoy-base: #ba0735;
   --sonchoy-base-rgb: 98, 34, 204;
   --sonchoy-black: #040b1e;
   --sonchoy-black-rgb: 4, 11, 30;
@@ -546,7 +546,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: var(--sonchoy-black);
+  background-color: var(--sonchoy-base);
   padding: 10px 60px 10px;
 }
 
