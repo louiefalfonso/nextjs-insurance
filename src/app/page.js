@@ -2,6 +2,7 @@ import Banner from "@/components/sections/Banner";
 import Layout from "@/components/layout/Layout"
 import Brand from "@/components/sections/Brand";
 import About from "@/components/sections/About";
+import Services from "@/components/sections/Services";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
         <Layout headerStyle={1} footerStyle={1}>
               <Banner/>
               <Brand/> 
-              <About/>  
+              <About/>
+              <Services/>  
         </Layout>
 
     </div>

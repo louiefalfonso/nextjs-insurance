@@ -41,7 +41,7 @@
 }
 
 .homestyle2 {
-  --sonchoy-base: #eb1919;
+  --sonchoy-base: #ba0735;
   --sonchoy-base-rgb: 235, 25, 25;
   --sonchoy-black: #0f0f0f;
   --sonchoy-black-rgb: 15, 15, 15;
@@ -675,7 +675,9 @@ ul {
   margin-right: 130px;
   padding: 34px 0;
 }
-
+.main-menu__logo img{
+  max-height: 100px;
+}
 .main-menu__main-menu-box {
   position: relative;
   display: block;
@@ -6184,7 +6186,9 @@ ul {
   position: relative;
   display: block;
 }
-
+.footer-widget__logo img {
+  max-height: 100px;
+}
 .footer-widget__about-text {
   color: #abafb5;
   margin-top: 30px;

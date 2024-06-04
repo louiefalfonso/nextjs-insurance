@@ -13,7 +13,7 @@ export default function Footer() {
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div className="footer-widget__column footer-widget__about">
                                     <div className="footer-widget__logo">
-                                        <Link href="index"><img src="assets/images/resources/footer-logo-1.png"
+                                        <Link href="index"><img src="assets/images/resources/Philam_Life_logo-white.png"
                                                 alt=""/></Link>
                                     </div>
                                     <p className="footer-widget__about-text">Address 301 Princes Street, Ei className
