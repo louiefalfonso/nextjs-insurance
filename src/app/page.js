@@ -5,6 +5,7 @@ import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
 import Funfacts from "@/components/sections/Funfacts";
 import Portfolio from "@/components/sections/Portfolio";
+import Pricing from "@/components/sections/Pricing";
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
               <Services/>
               <Funfacts/> 
               <Portfolio/>
+              <Pricing/>
         </Layout>
-
     </div>
   );
 }
