@@ -1,64 +1,89 @@
+"use client";
+import { useEffect, useState } from "react";
+import BackToTop from "../elements/BackToTop";
+import DataBg from "../elements/DataBg";
+import Breadcrumb from "./Breadcrumb";
+import SearchPopup from "./SearchPopup";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
+import Header from "./Header";
 
-'use client'
-import { useEffect, useState } from "react"
-import BackToTop from '../elements/BackToTop'
-import DataBg from "../elements/DataBg"
-import Breadcrumb from './Breadcrumb'
-import SearchPopup from "./SearchPopup"
-import Sidebar from "./Sidebar"
-import Footer from './Footer'
-import Header from "./Header"
+export default function Layout({
+  headerStyle,
+  footerStyle,
+  headTitle,
+  breadcrumbTitle,
+  children,
+  wrapperCls,
+}) {
+  const [scroll, setScroll] = useState(0);
+  // Mobile Menu
+  const [isMobileMenu, setMobileMenu] = useState(false);
+  const handleMobileMenu = () => {
+    setMobileMenu(!isMobileMenu);
+    !isMobileMenu
+      ? document.body.classList.add("mobile-menu-visible")
+      : document.body.classList.remove("mobile-menu-visible");
+  };
 
+  // Popup
+  const [isPopup, setPopup] = useState(false);
+  const handlePopup = () => setPopup(!isPopup);
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
-    const [scroll, setScroll] = useState(0)
-    // Mobile Menu
-    const [isMobileMenu, setMobileMenu] = useState(false)
-    const handleMobileMenu = () => {
-        setMobileMenu(!isMobileMenu)
-        !isMobileMenu ? document.body.classList.add("mobile-menu-visible") : document.body.classList.remove("mobile-menu-visible")
-    }
+  // Sidebar
+  const [isSidebar, setSidebar] = useState(false);
+  const handleSidebar = () => setSidebar(!isSidebar);
 
-    // Popup
-    const [isPopup, setPopup] = useState(false)
-    const handlePopup = () => setPopup(!isPopup)
+  useEffect(() => {
+    const WOW = require("wowjs");
+    window.wow = new WOW.WOW({
+      live: false,
+    });
+    window.wow.init();
 
-    // Sidebar
-    const [isSidebar, setSidebar] = useState(false)
-    const handleSidebar = () => setSidebar(!isSidebar)
+    document.addEventListener("scroll", () => {
+      const scrollCheck = window.scrollY > 100;
+      if (scrollCheck !== scroll) {
+        setScroll(scrollCheck);
+      }
+    });
+  }, []);
+  return (
+    <>
+      <DataBg />
+      <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
+        {!headerStyle && (
+          <Header
+            scroll={scroll}
+            isMobileMenu={isMobileMenu}
+            handleMobileMenu={handleMobileMenu}
+            handlePopup={handlePopup}
+            isSidebar={isSidebar}
+            handleSidebar={handleSidebar}
+          />
+        )}
+        {headerStyle == 1 ? (
+          <Header
+            scroll={scroll}
+            isMobileMenu={isMobileMenu}
+            handleMobileMenu={handleMobileMenu}
+            handlePopup={handlePopup}
+            isSidebar={isSidebar}
+            handleSidebar={handleSidebar}
+          />
+        ) : null}
 
-    useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
-        window.wow.init()
+        <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
+        <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
 
-        document.addEventListener("scroll", () => {
-            const scrollCheck = window.scrollY > 100
-            if (scrollCheck !== scroll) {
-                setScroll(scrollCheck)
-            }
-        })
-    }, [])
-    return (
-        <>
-            <DataBg />
-            <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
-                {!headerStyle && <Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} />}
-                {headerStyle == 1 ? <Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
+        {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
 
-                <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
-                <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
+        {children}
 
-                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
-
-                {children}
-
-                {!footerStyle && < Footer />}
-                {footerStyle == 1 ? < Footer /> : null}
-            </div>
-            <BackToTop scroll={scroll} />
-        </>
-    )
+        {!footerStyle && <Footer />}
+        {footerStyle == 1 ? <Footer /> : null}
+      </div>
+      <BackToTop scroll={scroll} />
+    </>
+  );
 }
