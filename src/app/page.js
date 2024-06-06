@@ -7,6 +7,8 @@ import Funfacts from "@/components/sections/Funfacts";
 import Portfolio from "@/components/sections/Portfolio";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Quote from "@/components/sections/Quote";
+import Blog from "@/components/sections/Blog ";
+import Cta from "@/components/sections/Cta";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
         <Portfolio />
         <WhyChooseUs />
         <Quote />
+        <Blog />
+        <Cta />
       </Layout>
     </div>
   );
