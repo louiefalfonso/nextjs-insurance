@@ -1,11 +1,11 @@
 import "../../node_modules/react-modal-video/css/modal-video.css";
-import "../../public/assets/css/sonchoy.css"
-import "../../public/assets/css/sonchoy-responsive.css"
-import 'swiper/css'
+import "../../public/assets/css/style.css";
+import "../../public/assets/css/style-responsive.css";
+import "swiper/css";
 // import "swiper/css/navigation"
-import "swiper/css/pagination"
-import 'swiper/css/free-mode';
-import {syne, dm_sans} from '@/lib/font'
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import { syne, dm_sans } from "@/lib/font";
 
 export const metadata = {
   title: "Insurance Company Project Next App",

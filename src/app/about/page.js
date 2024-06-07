@@ -207,12 +207,6 @@ export default function About() {
                         alt=""
                       />
                     </div>
-                    <div className="about-three__shape-1">
-                      <img
-                        src="assets/images/shapes/about-three-shape-1.png"
-                        alt=""
-                      />
-                    </div>
                   </div>
                 </div>
               </div>
