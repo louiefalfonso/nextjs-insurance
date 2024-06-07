@@ -203,7 +203,7 @@ export default function About() {
                     </div>
                     <div className="about-three__img-3">
                       <img
-                        src="assets/images/resources/about-three-img-3.jpg"
+                        src="assets/images/resources/about-three-img-3.jpeg"
                         alt=""
                       />
                     </div>
@@ -215,7 +215,7 @@ export default function About() {
                   <div className="section-title text-left">
                     <div className="section-title__tagline-box">
                       <p className="section-title__tagline">
-                        KNOW ABOUT SONCHOY
+                        KNOW MORE ABOUT PHILAM-LIFE GROUP
                       </p>
                     </div>
                     <h2 className="section-title__title">
@@ -262,18 +262,6 @@ export default function About() {
                       <Link href="about" className="about-three__btn thm-btn">
                         Discover More
                       </Link>
-                    </div>
-                    <div className="about-three__client-img">
-                      <img
-                        src="assets/images/resources/about-three-client-img.jpg"
-                        alt=""
-                      />
-                      <div className="about-three__client-signature">
-                        <img
-                          src="assets/images/shapes/about-three-client-signature.png"
-                          alt=""
-                        />
-                      </div>
                     </div>
                   </div>
                 </div>
