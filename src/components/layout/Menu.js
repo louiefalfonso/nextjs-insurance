@@ -17,7 +17,20 @@ export default function Menu() {
           </Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link
+            className={pathname == "/insurance" ? "active" : ""}
+            href="/insurance"
+          >
+            Insurance
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={pathname == "/contact" ? "active" : ""}
+            href="/contact"
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </>
