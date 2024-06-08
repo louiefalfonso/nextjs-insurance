@@ -25,6 +25,11 @@ export default function Menu() {
           </Link>
         </li>
         <li>
+          <Link className={pathname == "/faq" ? "active" : ""} href="/faq">
+            FAQ
+          </Link>
+        </li>
+        <li>
           <Link
             className={pathname == "/contact" ? "active" : ""}
             href="/contact"
