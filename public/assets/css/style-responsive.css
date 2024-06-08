@@ -2605,7 +2605,7 @@
     }
 
     .main-menu-four .mobile-nav__toggler:hover {
-        color: var(--sonchoy-white);
+        color: var(--style-white);
     }
 
 
@@ -2616,11 +2616,11 @@
 
 
     .main-menu-five .mobile-nav__toggler {
-        color: var(--sonchoy-white);
+        color: var(--style-white);
     }
 
     .main-menu-five .mobile-nav__toggler:hover {
-        color: var(--sonchoy-black);
+        color: var(--style-black);
     }
 
 
@@ -2708,7 +2708,7 @@
     }
 
     .main-menu-four .mobile-nav__toggler:hover {
-        color: var(--sonchoy-white);
+        color: var(--style-white);
     }
 
 
@@ -2718,11 +2718,11 @@
 
 
     .main-menu-five .mobile-nav__toggler {
-        color: var(--sonchoy-white);
+        color: var(--style-white);
     }
 
     .main-menu-five .mobile-nav__toggler:hover {
-        color: var(--sonchoy-black);
+        color: var(--style-black);
     }
 
 
@@ -2834,18 +2834,18 @@
     }
 
     .main-menu-four .mobile-nav__toggler:hover {
-        color: var(--sonchoy-white);
+        color: var(--style-white);
     }
 
 
 
 
     .main-menu-five .mobile-nav__toggler {
-        color: var(--sonchoy-white);
+        color: var(--style-white);
     }
 
     .main-menu-five .mobile-nav__toggler:hover {
-        color: var(--sonchoy-black);
+        color: var(--style-black);
     }
 
 

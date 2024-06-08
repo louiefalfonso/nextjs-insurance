@@ -324,12 +324,6 @@ export default function About() {
 
         {/* Why Choose Three Start */}
         <section className="why-choose-three why-choose-five">
-          <div className="why-choose-three__shape-1">
-            <img
-              src="assets/images/shapes/why-choose-five-shape-1.png"
-              alt=""
-            />
-          </div>
           <div className="why-choose-three__shape-2 img-bounce">
             <img
               src="assets/images/shapes/why-choose-five-shape-2.png"
@@ -345,7 +339,9 @@ export default function About() {
           <div className="container">
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
-                <p className="section-title__tagline">WHY CHOOSE SONCHOY</p>
+                <p className="section-title__tagline">
+                  WHY CHOOSE PHILAM-LIFE GROUP INSURANCE
+                </p>
               </div>
               <h2 className="section-title__title">
                 What Makes Us
