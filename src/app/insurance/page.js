@@ -12,7 +12,9 @@ export default function Insurance() {
                 <div className="services-one__single">
                   <div className="services-one__title-box">
                     <h3 className="services-one__title">
-                      <Link href="life-insurance">Life Insurance</Link>
+                      <Link href="/insurance/life-insurance">
+                        Life Insurance
+                      </Link>
                     </h3>
                   </div>
                   <div className="services-one__img-box">
@@ -27,7 +29,7 @@ export default function Insurance() {
                     </div>
                   </div>
                   <div className="services-one__read-more">
-                    <Link href="life-insurance">
+                    <Link href="/insurance/life-insurance">
                       READ MORE<span className="icon-next"></span>
                     </Link>
                   </div>
