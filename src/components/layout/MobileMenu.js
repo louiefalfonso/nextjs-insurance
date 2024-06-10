@@ -1,8 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
+  const pathname = usePathname();
+
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -55,197 +58,66 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               id="navbarSupportedContent"
             >
               <ul className="main-menu__list">
-                <li
-                  className={
-                    isActive.key == 1 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/">Home</Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 1 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="/">Home One</Link>
-                    </li>
-                    <li className="current">
-                      <Link href="/index-2">Home Two</Link>
-                    </li>
-                    <li>
-                      <Link href="/index-3">Home Three</Link>
-                    </li>
-                    <li>
-                      <Link href="/index-4">Home Four</Link>
-                    </li>
-                    <li>
-                      <Link href="/index-5">Home Five</Link>
-                    </li>
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(1)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
+                <li>
+                  <Link className={pathname == "/" ? "active" : ""} href="/">
+                    Home{" "}
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/about/">About</Link>
-                </li>
-                <li
-                  className={
-                    isActive.key == 2 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#">Pages</Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 2 ? "block" : "none"}`,
-                    }}
+                  <Link
+                    className={pathname == "/about" ? "active" : ""}
+                    href="/about"
                   >
-                    <li>
-                      <Link href="team">Team</Link>
-                    </li>
-                    <li>
-                      <Link href="team-details">Team Details</Link>
-                    </li>
-                    <li>
-                      <Link href="testimonial">Testimonials</Link>
-                    </li>
-                    <li>
-                      <Link href="portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link href="portfolio-details">Portfolio Details</Link>
-                    </li>
-                    <li>
-                      <Link href="pricing">Pricing</Link>
-                    </li>
-                    <li>
-                      <Link href="faq">Faq</Link>
-                    </li>
-                    <li>
-                      <Link href="/error">404 Error</Link>
-                    </li>
-                  </ul>
-
-                  <div
-                    className={
-                      isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(2)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
-                </li>
-
-                <li
-                  className={
-                    isActive.key == 3 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#">Insurance</Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 3 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="insurance">Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="life-insurance">Life Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="health-insurance">Health Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="car-insurance">Car Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="home-insurance">Home Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="family-insurance">Family Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="business-insurance">Buisness Insurance</Link>
-                    </li>
-                  </ul>
-
-                  <div
-                    className={
-                      isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(3)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
-                </li>
-
-                <li
-                  className={
-                    isActive.key == 4 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#">Blog</Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 4 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-sidebar">Blog Sidebar</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-details">Blog Details</Link>
-                    </li>
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(4)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
-                </li>
-
-                <li
-                  className={
-                    isActive.key == 5 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#">Shop</Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 5 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="products">Products</Link>
-                    </li>
-                    <li>
-                      <Link href="product-details">Product Details</Link>
-                    </li>
-                  </ul>
-
-                  <div
-                    className={
-                      isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(5)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link
+                    className={pathname == "/teams" ? "active" : ""}
+                    href="/teams"
+                  >
+                    Teams
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={pathname == "/insurance" ? "active" : ""}
+                    href="/insurance"
+                  >
+                    Insurance
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={pathname == "/faq" ? "active" : ""}
+                    href="/faq"
+                  >
+                    FAQ
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={pathname == "/testimonials" ? "active" : ""}
+                    href="/testimonials"
+                  >
+                    Testimonials
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={pathname == "/news" ? "active" : ""}
+                    href="/news"
+                  >
+                    Latest News
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={pathname == "/contact" ? "active" : ""}
+                    href="/contact"
+                  >
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -253,9 +125,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           <ul className="mobile-nav__contact list-unstyled">
             <li>
               <i className="fa fa-envelope"></i>
-              <a href="mailto:needhelp@packageName__.com">
-                needhelp@sonchoy.com
-              </a>
+              <Link href="/">philamlife-group@gmail.com</Link>
             </li>
             <li>
               <i className="fa fa-phone-alt"></i>

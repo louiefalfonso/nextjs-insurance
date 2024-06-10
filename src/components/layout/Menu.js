@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
 export default function Menu() {
   const pathname = usePathname();
 
@@ -17,6 +18,11 @@ export default function Menu() {
           </Link>
         </li>
         <li>
+          <Link className={pathname == "/teams" ? "active" : ""} href="/teams">
+            Teams
+          </Link>
+        </li>
+        <li>
           <Link
             className={pathname == "/insurance" ? "active" : ""}
             href="/insurance"
@@ -27,6 +33,19 @@ export default function Menu() {
         <li>
           <Link className={pathname == "/faq" ? "active" : ""} href="/faq">
             FAQ
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={pathname == "/testimonials" ? "active" : ""}
+            href="/testimonials"
+          >
+            Testimonials
+          </Link>
+        </li>
+        <li>
+          <Link className={pathname == "/news" ? "active" : ""} href="/news">
+            Latest News
           </Link>
         </li>
         <li>
