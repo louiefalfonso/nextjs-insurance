@@ -34,7 +34,7 @@ export default function Menu() {
             className={pathname == "/contact" ? "active" : ""}
             href="/contact"
           >
-            Contact
+            Contact Us
           </Link>
         </li>
       </ul>
