@@ -54,7 +54,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="main-menu__logo">
                   <Link href="/">
                     <img
-                      src="assets/images/resources/Philam_Life_logo.png"
+                      src="../assets/images/resources/Philam_Life_logo.png"
                       alt=""
                     />
                   </Link>
