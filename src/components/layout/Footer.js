@@ -56,19 +56,19 @@ export default function Footer() {
                     </div>
                     <ul className="footer-widget__navigation-list list-unstyled">
                       <li>
-                        <Link href="index">Home</Link>
+                        <Link href="index">About Us</Link>
                       </li>
                       <li>
-                        <Link href="about">About Us</Link>
+                        <Link href="about">Teams</Link>
                       </li>
                       <li>
-                        <Link href="insurance">Services</Link>
+                        <Link href="insurance">FAQ</Link>
+                      </li>
+                      <li>
+                        <Link href="contact">Testimonials</Link>
                       </li>
                       <li>
                         <Link href="contact">Contact Us</Link>
-                      </li>
-                      <li>
-                        <Link href="blog">Our Blog</Link>
                       </li>
                     </ul>
                   </div>
@@ -79,23 +79,23 @@ export default function Footer() {
                 >
                   <div className="footer-widget__column footer-widget__quick-link">
                     <div className="footer-widget__title-box">
-                      <h3 className="footer-widget__title">Quick Link</h3>
+                      <h3 className="footer-widget__title">Insurance</h3>
                     </div>
                     <ul className="footer-widget__navigation-list list-unstyled">
                       <li>
-                        <Link href="about">Help</Link>
+                        <Link href="about">Life Insurance</Link>
                       </li>
                       <li>
-                        <Link href="contact">Support</Link>
+                        <Link href="contact">Home Insurance</Link>
                       </li>
                       <li>
-                        <Link href="testimonial">Clients</Link>
+                        <Link href="testimonial">Health Insurance</Link>
                       </li>
                       <li>
-                        <Link href="products">Shop</Link>
+                        <Link href="products">Car Insurance</Link>
                       </li>
                       <li>
-                        <Link href="portfolio">Portfolio</Link>
+                        <Link href="portfolio">Family insurance</Link>
                       </li>
                     </ul>
                   </div>

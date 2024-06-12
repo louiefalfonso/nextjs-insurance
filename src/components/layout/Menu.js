@@ -31,10 +31,31 @@ export default function Menu() {
           </Link>
           <ul>
             <li>
-              <Link href="/insurance/life-insurance">Life Insurance</Link>
+              <Link
+                className={
+                  pathname == "/insurance/life-insurance" ? "active" : ""
+                }
+                href="/insurance/life-insurance"
+              >
+                Life Insurance
+              </Link>
             </li>
             <li>
               <Link href="/insurance/car-insurance">Car Insurance</Link>
+            </li>
+            <li>
+              <Link href="/insurance/business-insurance">
+                Business Insurance
+              </Link>
+            </li>
+            <li>
+              <Link href="/insurance/family-insurance">Family Insurance</Link>
+            </li>
+            <li>
+              <Link href="/insurance/health-insurance">Health Insurance</Link>
+            </li>
+            <li>
+              <Link href="/insurance/home-insurance">Home Insurance</Link>
             </li>
           </ul>
         </li>
