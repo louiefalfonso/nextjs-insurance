@@ -22,13 +22,21 @@ export default function Menu() {
             Teams
           </Link>
         </li>
-        <li>
+        <li className="dropdown">
           <Link
             className={pathname == "/insurance" ? "active" : ""}
             href="/insurance"
           >
             Insurance
           </Link>
+          <ul>
+            <li>
+              <Link href="/insurance/life-insurance">Life Insurance</Link>
+            </li>
+            <li>
+              <Link href="/insurance/car-insurance">Car Insurance</Link>
+            </li>
+          </ul>
         </li>
         <li>
           <Link className={pathname == "/faq" ? "active" : ""} href="/faq">
