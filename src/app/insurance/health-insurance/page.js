@@ -248,7 +248,7 @@ export default function Home() {
                     </h3>
                     <div className="insurance-details__need-help-btn-box">
                       <Link
-                        href="contact"
+                        href="/contact"
                         className="insurance-details__need-help-btn thm-btn"
                       >
                         FIND SOLUTION
