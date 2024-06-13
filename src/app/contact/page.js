@@ -22,7 +22,10 @@ export default function Home() {
                     <ul className="contact-page__contact-list list-unstyled">
                       <li>
                         <h5>Address</h5>
-                        <p>254, North City, Bulex Center, New York</p>
+                        <p>
+                          Main Address: BPI-Philam Life Makati, 6811 Ayala
+                          Avenue, Makati City, Philippines, 1226
+                        </p>
                       </li>
                       <li>
                         <h5>Phone</h5>
@@ -36,18 +39,11 @@ export default function Home() {
                         <h5>Email</h5>
                         <p>
                           <Link href="mailto:info@example.com">
-                            info@example.com
-                          </Link>
-                          <span>or</span>
-                          <Link href="mailto:info@example.com">
-                            info@example.com
+                            philamlife-group@gmail.com
                           </Link>
                         </p>
                       </li>
                     </ul>
-                    <Link href="#" className="contact-page__link">
-                      www.example.com
-                    </Link>
                   </div>
                 </div>
               </div>

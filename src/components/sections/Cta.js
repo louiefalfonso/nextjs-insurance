@@ -11,7 +11,7 @@ export default function Cta() {
               className="cta-one__bg"
               style={{
                 backgroundImage:
-                  "url(assets/images/backgrounds/cta-one-bg.jpg)",
+                  "url(../assets/images/backgrounds/cta-one-bg.jpg)",
               }}
             ></div>
             <div className="cta-one__title-box">

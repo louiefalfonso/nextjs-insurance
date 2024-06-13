@@ -23,7 +23,7 @@ export default function Home() {
                   <div className="testimonial-one__client-info">
                     <div className="testimonial-one__client-img">
                       <img
-                        src="assets/images/testimonial/testimonial-page-1-1.jpg"
+                        src="../assets/images/testimonial/testimonial-page-1-1.jpg"
                         alt=""
                       />
                     </div>
