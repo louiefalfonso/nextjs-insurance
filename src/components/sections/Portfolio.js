@@ -8,10 +8,10 @@ const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 4,
   spaceBetween: 10,
-  // autoplay: {
-  //     delay: 2500,
-  //     disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   loop: true,
 
   // Navigation
@@ -81,14 +81,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">Health Analytics</Link>
+                        <Link href="/insurance">Health Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-1.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>
@@ -115,16 +112,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">
-                          Insurance Analytics
-                        </Link>
+                        <Link href="/insurance">Insurance Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-2.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>
@@ -151,14 +143,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">Travels Analytics</Link>
+                        <Link href="/insurance">Travels Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-3.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>
@@ -185,14 +174,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">Life Analytics</Link>
+                        <Link href="/insurance">Life Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-4.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>
@@ -219,16 +205,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">
-                          Insurance Analytics
-                        </Link>
+                        <Link href="/insurance">Insurance Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-2.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>
@@ -255,14 +236,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">Travels Analytics</Link>
+                        <Link href="/insurance">Travels Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-3.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>
@@ -289,14 +267,11 @@ export default function Portfolio() {
                     <div className="portfolio-one__title-box">
                       <p className="portfolio-one__sub-title">San Fransisco</p>
                       <h3 className="portfolio-one__title">
-                        <Link href="portfolio-details">Life Analytics</Link>
+                        <Link href="/insurance">Life Analytics</Link>
                       </h3>
                     </div>
                     <div className="portfolio-one__arrow">
-                      <Link
-                        href="assets/images/project/portfolio-1-4.jpg"
-                        className="img-popup"
-                      >
+                      <Link href="/insurance" className="img-popup">
                         <span className="icon-next"></span>
                       </Link>
                     </div>

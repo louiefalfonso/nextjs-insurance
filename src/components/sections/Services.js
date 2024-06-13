@@ -36,7 +36,9 @@ export default function Services() {
                         <span className="icon-life-insurance"></span>
                       </div>
                       <h3 className="services-two__title">
-                        <Link href="life-insurance">Life Insurance</Link>
+                        <Link href="/insurance/life-insurance">
+                          Life Insurance
+                        </Link>
                       </h3>
                       <div className="services-two__arrow">
                         <Link href="#">
@@ -55,13 +57,15 @@ export default function Services() {
                         <span className="icon-life-insurance"></span>
                       </div>
                       <h3 className="services-two__hover-title">
-                        <Link href="life-insurance">Life Insurance</Link>
+                        <Link href="/insurance/life-insurance">
+                          Life Insurance
+                        </Link>
                       </h3>
                       <p className="services-two__hover-text">
                         Nullam eu nibh vitae est tempor molestie id
                       </p>
                       <div className="services-two__hover-arrow">
-                        <Link href="life-insurance">
+                        <Link href="/insurance/life-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -75,10 +79,12 @@ export default function Services() {
                         <span className="icon-protection-1"></span>
                       </div>
                       <h3 className="services-two__title">
-                        <Link href="health-insurance">Health Cover</Link>
+                        <Link href="/insurance/health-insurance">
+                          Health Cover
+                        </Link>
                       </h3>
                       <div className="services-two__arrow">
-                        <Link href="health-insurance">
+                        <Link href="/insurance/health-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -94,13 +100,15 @@ export default function Services() {
                         <span className="icon-protection-1"></span>
                       </div>
                       <h3 className="services-two__hover-title">
-                        <Link href="health-insurance">Health Cover</Link>
+                        <Link href="/insurance/health-insurance">
+                          Health Cover
+                        </Link>
                       </h3>
                       <p className="services-two__hover-text">
                         Nullam eu nibh vitae est tempor molestie id
                       </p>
                       <div className="services-two__hover-arrow">
-                        <Link href="health-insurance">
+                        <Link href="/insurance/health-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -114,10 +122,10 @@ export default function Services() {
                         <span className="icon-car-1"></span>
                       </div>
                       <h3 className="services-two__title">
-                        <Link href="car-insurance">Car Cover</Link>
+                        <Link href="/insurance/car-insurance">Car Cover</Link>
                       </h3>
                       <div className="services-two__arrow">
-                        <Link href="car-insurance">
+                        <Link href="/insurance/car-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -133,13 +141,13 @@ export default function Services() {
                         <span className="icon-car-1"></span>
                       </div>
                       <h3 className="services-two__hover-title">
-                        <Link href="car-insurance">Car Cover</Link>
+                        <Link href="/insurance/car-insurance">Car Cover</Link>
                       </h3>
                       <p className="services-two__hover-text">
                         Nullam eu nibh vitae est tempor molestie id
                       </p>
                       <div className="services-two__hover-arrow">
-                        <Link href="car-insurance">
+                        <Link href="/insurance/car-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -153,10 +161,12 @@ export default function Services() {
                         <span className="icon-travel-insurance"></span>
                       </div>
                       <h3 className="services-two__title">
-                        <Link href="family-insurance">Travels Cover</Link>
+                        <Link href="/insurance/family-insurance">
+                          Travels Cover
+                        </Link>
                       </h3>
                       <div className="services-two__arrow">
-                        <Link href="family-insurance">
+                        <Link href="/insurance/family-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -172,13 +182,15 @@ export default function Services() {
                         <span className="icon-travel-insurance"></span>
                       </div>
                       <h3 className="services-two__hover-title">
-                        <Link href="family-insurance">Travels Cover</Link>
+                        <Link href="/insurance/family-insurance">
+                          Travels Cover
+                        </Link>
                       </h3>
                       <p className="services-two__hover-text">
                         Nullam eu nibh vitae est tempor molestie id
                       </p>
                       <div className="services-two__hover-arrow">
-                        <Link href="family-insurance">
+                        <Link href="/insurance/family-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -192,10 +204,10 @@ export default function Services() {
                         <span className="icon-home-security"></span>
                       </div>
                       <h3 className="services-two__title">
-                        <Link href="home-insurance">Home Cover</Link>
+                        <Link href="/insurance/home-insurance">Home Cover</Link>
                       </h3>
                       <div className="services-two__arrow">
-                        <Link href="home-insurance">
+                        <Link href="/insurance/home-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -211,13 +223,13 @@ export default function Services() {
                         <span className="icon-home-security"></span>
                       </div>
                       <h3 className="services-two__hover-title">
-                        <Link href="home-insurance">Home Cover</Link>
+                        <Link href="/insurance/home-insurance">Home Cover</Link>
                       </h3>
                       <p className="services-two__hover-text">
                         Nullam eu nibh vitae est tempor molestie id
                       </p>
                       <div className="services-two__hover-arrow">
-                        <Link href="home-insurance">
+                        <Link href="/insurance/home-insurance">
                           <span className="icon-next"></span>
                         </Link>
                       </div>
@@ -243,7 +255,7 @@ export default function Services() {
               </h3>
               <div className="services-two__bottom-btn-box">
                 <Link
-                  href="contact"
+                  href="/contact"
                   className="services-two__bottom-btn thm-btn"
                 >
                   GET A QUOTE
