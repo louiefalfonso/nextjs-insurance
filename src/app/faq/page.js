@@ -189,7 +189,7 @@ export default function FAQ() {
                 className="cta-one__bg"
                 style={{
                   backgroundImage:
-                    "url(assets/images/shapes/cta-three-bg-shape-2.png)",
+                    "url(../assets/images/shapes/cta-three-bg-shape-2.png)",
                 }}
               ></div>
               <div className="cta-one__title-box">

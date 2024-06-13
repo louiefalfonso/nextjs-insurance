@@ -44,7 +44,7 @@ export default function Home() {
                   </p>
                   <div className="insurance-details__img-1">
                     <img
-                      src="assets/images/services/insurance-details-img-1.jpg"
+                      src="../assets/images/services/insurance-details-img-1.jpg"
                       alt=""
                     />
                   </div>
@@ -238,7 +238,7 @@ export default function Home() {
                       className="insurance-details__need-help-bg"
                       style={{
                         backgroundImage:
-                          "url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)",
+                          "url(../assets/images/backgrounds/insurance-details-need-help-bg.jpg)",
                       }}
                     ></div>
                     <h3 className="insurance-details__need-help-title">
