@@ -18,26 +18,26 @@ export default function Home() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">William Hender</Link>
+                      <Link href="/teams">William Hender</Link>
                     </h3>
                     <p className="team-two__sub-title">CEO of Company</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-instagram-1"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-facebook"></span>
                         </Link>
                       </div>
@@ -56,26 +56,26 @@ export default function Home() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">Janes Cooper</Link>
+                      <Link href="/teams">Janes Cooper</Link>
                     </h3>
                     <p className="team-two__sub-title">Designer</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-instagram-1"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-facebook"></span>
                         </Link>
                       </div>
@@ -94,26 +94,26 @@ export default function Home() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">Jonas Blueyar</Link>
+                      <Link href="/teams">Jonas Blueyar</Link>
                     </h3>
                     <p className="team-two__sub-title">Insurance Manager</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-instagram-1"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-facebook"></span>
                         </Link>
                       </div>
@@ -132,26 +132,26 @@ export default function Home() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">Tamu Kari</Link>
+                      <Link href="/teams">Tamu Kari</Link>
                     </h3>
                     <p className="team-two__sub-title">Insurance Manager</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-instagram-1"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-facebook"></span>
                         </Link>
                       </div>
@@ -170,26 +170,26 @@ export default function Home() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">Adam Smith</Link>
+                      <Link href="/teams">Adam Smith</Link>
                     </h3>
                     <p className="team-two__sub-title">Insurance Manager</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-instagram-1"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-facebook"></span>
                         </Link>
                       </div>
@@ -208,26 +208,26 @@ export default function Home() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">Alisha Martin</Link>
+                      <Link href="/teams">Alisha Martin</Link>
                     </h3>
                     <p className="team-two__sub-title">Insurance Manager</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-instagram-1"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-facebook"></span>
                         </Link>
                       </div>
