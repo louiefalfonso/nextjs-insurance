@@ -4,7 +4,7 @@ export default function Footer() {
     <>
       <footer className="site-footer">
         <div className="site-footer__shape-1 float-bob-x">
-          <img src="assets/images/shapes/site-footer-shape-1.png" alt="" />
+          <img src="../assets/images/shapes/site-footer-shape-1.png" alt="" />
         </div>
         <div className="site-footer__top">
           <div className="container">
@@ -18,7 +18,7 @@ export default function Footer() {
                     <div className="footer-widget__logo">
                       <Link href="index">
                         <img
-                          src="assets/images/resources/Philam_Life_logo-white.png"
+                          src="../assets/images/resources/Philam_Life_logo-white.png"
                           alt=""
                         />
                       </Link>
@@ -83,19 +83,29 @@ export default function Footer() {
                     </div>
                     <ul className="footer-widget__navigation-list list-unstyled">
                       <li>
-                        <Link href="about">Life Insurance</Link>
+                        <Link href="/insurance/life-insurance">
+                          Life Insurance
+                        </Link>
                       </li>
                       <li>
-                        <Link href="contact">Home Insurance</Link>
+                        <Link href="/insurance/home-insurance">
+                          Home Insurance
+                        </Link>
                       </li>
                       <li>
-                        <Link href="testimonial">Health Insurance</Link>
+                        <Link href="/insurance/health-insurance">
+                          Health Insurance
+                        </Link>
                       </li>
                       <li>
-                        <Link href="products">Car Insurance</Link>
+                        <Link href="/insurance/car-insurance">
+                          Car Insurance
+                        </Link>
                       </li>
                       <li>
-                        <Link href="portfolio">Family insurance</Link>
+                        <Link href="/insurance/family-insurance">
+                          Family insurance
+                        </Link>
                       </li>
                     </ul>
                   </div>

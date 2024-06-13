@@ -45,7 +45,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           <div className="logo-box">
             <a href="index" aria-label="logo image">
               <img
-                src="assets/images/resources/Philam_Life_logo-white.png"
+                src="../assets/images/resources/Philam_Life_logo-white.png"
                 width="150"
                 alt=""
               />
