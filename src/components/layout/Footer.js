@@ -56,19 +56,19 @@ export default function Footer() {
                     </div>
                     <ul className="footer-widget__navigation-list list-unstyled">
                       <li>
-                        <Link href="index">About Us</Link>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link href="about">Teams</Link>
+                        <Link href="/teams">Teams</Link>
                       </li>
                       <li>
-                        <Link href="insurance">FAQ</Link>
+                        <Link href="/faq">FAQ</Link>
                       </li>
                       <li>
-                        <Link href="contact">Testimonials</Link>
+                        <Link href="/testimonials">Testimonials</Link>
                       </li>
                       <li>
-                        <Link href="contact">Contact Us</Link>
+                        <Link href="/contact">Contact Us</Link>
                       </li>
                     </ul>
                   </div>

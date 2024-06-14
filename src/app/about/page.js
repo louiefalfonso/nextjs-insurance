@@ -753,12 +753,12 @@ export default function About() {
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">William Hender</Link>
+                      <Link href="/teams">William Hender</Link>
                     </h3>
                     <p className="team-two__sub-title">CEO of Company</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
@@ -766,7 +766,7 @@ export default function About() {
                         <Link href="team-details">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
-                        <Link href="team-details">
+                        <Link href="/teams">
                           <span className="icon-vimeo"></span>
                         </Link>
                         <Link href="team-details">
