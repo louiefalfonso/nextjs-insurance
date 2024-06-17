@@ -45,7 +45,7 @@ export default function Home() {
                   </p>
                   <div className="insurance-details__img-1">
                     <img
-                      src="assets/images/services/insurance-details-img-5.jpg"
+                      src="../assets/images/services/insurance-details-img-5.jpg"
                       alt=""
                     />
                   </div>
