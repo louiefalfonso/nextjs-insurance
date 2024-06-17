@@ -462,7 +462,10 @@ export default function About() {
                   <div className="item">
                     <div className="testimonial-one__single">
                       <div className="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon-1.png" alt="" />
+                        <img
+                          src="../assets/images/icon/quote-icon-1.png"
+                          alt=""
+                        />
                       </div>
                       <div className="testimonial-one__text-box">
                         <p className="testimonial-one__text">
@@ -479,7 +482,112 @@ export default function About() {
                           />
                         </div>
                         <h3 className="testimonial-one__client-name">
-                          <Link href="testimonial">Ononto Khan</Link>
+                          <Link href="/testimonials">Ononto Khan</Link>
+                        </h3>
+                        <p className="testimonial-one__client-sub-title">
+                          Developer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                {/* Testimonial One Single Start */}
+                {/* Testimonial One Single Start */}
+                <SwiperSlide>
+                  <div className="item">
+                    <div className="testimonial-one__single">
+                      <div className="testimonial-one__quote">
+                        <img
+                          src="../assets/images/icon/quote-icon-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="testimonial-one__text-box">
+                        <p className="testimonial-one__text">
+                          Pension schemes ensu security during retirement years
+                          for eligible individua. Retirement pensions provide
+                          financ security for qualifying individu
+                        </p>
+                      </div>
+                      <div className="testimonial-one__client-info">
+                        <div className="testimonial-one__client-img">
+                          <img
+                            src="../assets/images/testimonial/testimonial-1-2.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <h3 className="testimonial-one__client-name">
+                          <Link href="/testimonials">Smith S.R</Link>
+                        </h3>
+                        <p className="testimonial-one__client-sub-title">
+                          Developer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                {/* Testimonial One Single Start */}
+                {/* Testimonial One Single Start */}
+                <SwiperSlide>
+                  <div className="item">
+                    <div className="testimonial-one__single">
+                      <div className="testimonial-one__quote">
+                        <img
+                          src="../assets/images/icon/quote-icon-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="testimonial-one__text-box">
+                        <p className="testimonial-one__text">
+                          Pension schemes ensu security during retirement years
+                          for eligible individua. Retirement pensions provide
+                          financ security for qualifying individu
+                        </p>
+                      </div>
+                      <div className="testimonial-one__client-info">
+                        <div className="testimonial-one__client-img">
+                          <img
+                            src="../assets/images/testimonial/testimonial-1-3.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <h3 className="testimonial-one__client-name">
+                          <Link href="/testimonials">Alisha Martin</Link>
+                        </h3>
+                        <p className="testimonial-one__client-sub-title">
+                          Developer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                {/* Testimonial One Single Start */}
+                {/* Testimonial One Single Start */}
+                <SwiperSlide>
+                  <div className="item">
+                    <div className="testimonial-one__single">
+                      <div className="testimonial-one__quote">
+                        <img
+                          src="../assets/images/icon/quote-icon-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="testimonial-one__text-box">
+                        <p className="testimonial-one__text">
+                          Pension schemes ensu security during retirement years
+                          for eligible individua. Retirement pensions provide
+                          financ security for qualifying individu
+                        </p>
+                      </div>
+                      <div className="testimonial-one__client-info">
+                        <div className="testimonial-one__client-img">
+                          <img
+                            src="../assets/images/testimonial/testimonial-1-4.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <h3 className="testimonial-one__client-name">
+                          <Link href="/testimonials">David Koper</Link>
                         </h3>
                         <p className="testimonial-one__client-sub-title">
                           Developer
@@ -506,12 +614,12 @@ export default function About() {
                       <div className="testimonial-one__client-info">
                         <div className="testimonial-one__client-img">
                           <img
-                            src="assets/images/testimonial/testimonial-1-2.jpg"
+                            src="../assets/images/testimonial/testimonial-1-5.jpg"
                             alt=""
                           />
                         </div>
                         <h3 className="testimonial-one__client-name">
-                          <Link href="testimonial">Smith S.R</Link>
+                          <Link href="/testimonials">Jecika Brown</Link>
                         </h3>
                         <p className="testimonial-one__client-sub-title">
                           Developer
@@ -526,7 +634,10 @@ export default function About() {
                   <div className="item">
                     <div className="testimonial-one__single">
                       <div className="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon-1.png" alt="" />
+                        <img
+                          src="../assets/images/icon/quote-icon-1.png"
+                          alt=""
+                        />
                       </div>
                       <div className="testimonial-one__text-box">
                         <p className="testimonial-one__text">
@@ -538,108 +649,12 @@ export default function About() {
                       <div className="testimonial-one__client-info">
                         <div className="testimonial-one__client-img">
                           <img
-                            src="assets/images/testimonial/testimonial-1-3.jpg"
+                            src="../assets/images/testimonial/testimonial-1-6.jpg"
                             alt=""
                           />
                         </div>
                         <h3 className="testimonial-one__client-name">
-                          <Link href="testimonial">Alisha Martin</Link>
-                        </h3>
-                        <p className="testimonial-one__client-sub-title">
-                          Developer
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                {/* Testimonial One Single Start */}
-                {/* Testimonial One Single Start */}
-                <SwiperSlide>
-                  <div className="item">
-                    <div className="testimonial-one__single">
-                      <div className="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon-1.png" alt="" />
-                      </div>
-                      <div className="testimonial-one__text-box">
-                        <p className="testimonial-one__text">
-                          Pension schemes ensu security during retirement years
-                          for eligible individua. Retirement pensions provide
-                          financ security for qualifying individu
-                        </p>
-                      </div>
-                      <div className="testimonial-one__client-info">
-                        <div className="testimonial-one__client-img">
-                          <img
-                            src="assets/images/testimonial/testimonial-1-4.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <h3 className="testimonial-one__client-name">
-                          <Link href="testimonial">David Koper</Link>
-                        </h3>
-                        <p className="testimonial-one__client-sub-title">
-                          Developer
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                {/* Testimonial One Single Start */}
-                {/* Testimonial One Single Start */}
-                <SwiperSlide>
-                  <div className="item">
-                    <div className="testimonial-one__single">
-                      <div className="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon-1.png" alt="" />
-                      </div>
-                      <div className="testimonial-one__text-box">
-                        <p className="testimonial-one__text">
-                          Pension schemes ensu security during retirement years
-                          for eligible individua. Retirement pensions provide
-                          financ security for qualifying individu
-                        </p>
-                      </div>
-                      <div className="testimonial-one__client-info">
-                        <div className="testimonial-one__client-img">
-                          <img
-                            src="assets/images/testimonial/testimonial-1-5.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <h3 className="testimonial-one__client-name">
-                          <Link href="testimonial">Jecika Brown</Link>
-                        </h3>
-                        <p className="testimonial-one__client-sub-title">
-                          Developer
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                {/* Testimonial One Single Start */}
-                {/* Testimonial One Single Start */}
-                <SwiperSlide>
-                  <div className="item">
-                    <div className="testimonial-one__single">
-                      <div className="testimonial-one__quote">
-                        <img src="assets/images/icon/quote-icon-1.png" alt="" />
-                      </div>
-                      <div className="testimonial-one__text-box">
-                        <p className="testimonial-one__text">
-                          Pension schemes ensu security during retirement years
-                          for eligible individua. Retirement pensions provide
-                          financ security for qualifying individu
-                        </p>
-                      </div>
-                      <div className="testimonial-one__client-info">
-                        <div className="testimonial-one__client-img">
-                          <img
-                            src="assets/images/testimonial/testimonial-1-6.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <h3 className="testimonial-one__client-name">
-                          <Link href="testimonial">Harbert Spenser</Link>
+                          <Link href="/testimonials">Harbert Spenser</Link>
                         </h3>
                         <p className="testimonial-one__client-sub-title">
                           Developer
@@ -661,23 +676,23 @@ export default function About() {
             className="video-one__bg jarallax"
             style={{
               backgroundImage:
-                "url(assets/images/backgrounds/video-one__bg.jpg)",
+                "url(../assets/images/backgrounds/video-one__bg.jpg)",
             }}
           ></div>
           <div className="video-one__shape-1">
-            <img src="assets/images/shapes/video-one__shape-1.png" alt="" />
+            <img src="../assets/images/shapes/video-one__shape-1.png" alt="" />
           </div>
           <div className="video-one__shape-2">
-            <img src="assets/images/shapes/video-one__shape-2.png" alt="" />
+            <img src="../assets/images/shapes/video-one__shape-2.png" alt="" />
           </div>
           <div className="video-one__shape-3">
-            <img src="assets/images/shapes/video-one__shape-3.png" alt="" />
+            <img src="../assets/images/shapes/video-one__shape-3.png" alt="" />
           </div>
           <div className="video-one__shape-4">
-            <img src="assets/images/shapes/video-one__shape-4.png" alt="" />
+            <img src="../assets/images/shapes/video-one__shape-4.png" alt="" />
           </div>
           <div className="video-one__shape-5">
-            <img src="assets/images/shapes/video-one__shape-5.png" alt="" />
+            <img src="../assets/images/shapes/video-one__shape-5.png" alt="" />
           </div>
           <div className="container">
             <div className="video-one__inner">
@@ -748,7 +763,7 @@ export default function About() {
                 <div className="team-two__single">
                   <div className="team-two__img-box">
                     <div className="team-two__img">
-                      <img src="assets/images/team/team-2-1.jpg" alt="" />
+                      <img src="../assets/images/team/team-2-1.jpg" alt="" />
                     </div>
                   </div>
                   <div className="team-two__content">
@@ -763,7 +778,7 @@ export default function About() {
                         </Link>
                       </div>
                       <div className="team-two__social">
-                        <Link href="team-details">
+                        <Link href="/team-details">
                           <span className="icon-google-plus-logo"></span>
                         </Link>
                         <Link href="/teams">
@@ -789,7 +804,7 @@ export default function About() {
                 <div className="team-two__single">
                   <div className="team-two__img-box">
                     <div className="team-two__img">
-                      <img src="assets/images/team/team-2-2.jpg" alt="" />
+                      <img src="../assets/images/team/team-2-2.jpg" alt="" />
                     </div>
                   </div>
                   <div className="team-two__content">
@@ -799,7 +814,7 @@ export default function About() {
                     <p className="team-two__sub-title">Designer</p>
                     <div className="team-two__share-and-social">
                       <div className="team-two__share">
-                        <Link href="team-details">
+                        <Link href="/team-details">
                           <span className="icon-share"></span>
                         </Link>
                       </div>
@@ -830,12 +845,12 @@ export default function About() {
                 <div className="team-two__single">
                   <div className="team-two__img-box">
                     <div className="team-two__img">
-                      <img src="assets/images/team/team-2-3.jpg" alt="" />
+                      <img src="../assets/images/team/team-2-3.jpg" alt="" />
                     </div>
                   </div>
                   <div className="team-two__content">
                     <h3 className="team-two__title">
-                      <Link href="team-details">Jonas Blueyar</Link>
+                      <Link href="/team-details">Jonas Blueyar</Link>
                     </h3>
                     <p className="team-two__sub-title">Insurance Manager</p>
                     <div className="team-two__share-and-social">
@@ -882,7 +897,7 @@ export default function About() {
                 className="cta-one__bg"
                 style={{
                   backgroundImage:
-                    "url(assets/images/shapes/cta-three-bg-shape-2.png)",
+                    "url(../assets/images/shapes/cta-three-bg-shape-2.png)",
                 }}
               ></div>
               <div className="cta-one__title-box">

@@ -45,7 +45,7 @@ export default function Quote() {
                 <div className="get-quote__left clearfix">
                   <div className="get-quote__shape-6 float-bob-y">
                     <img
-                      src="assets/images/shapes/get-quote-shape-6.png"
+                      src="../assets/images/shapes/get-quote-shape-6.png"
                       alt=""
                     />
                   </div>
@@ -138,19 +138,19 @@ export default function Quote() {
                 <div className="get-quote__right">
                   <div className="get-quote__shape-1">
                     <img
-                      src="assets/images/shapes/get-quote-shape-1.png"
+                      src="../assets/images/shapes/get-quote-shape-1.png"
                       alt=""
                     />
                   </div>
                   <div className="get-quote__shape-2">
                     <img
-                      src="assets/images/shapes/get-quote-shape-2.png"
+                      src="../assets/images/shapes/get-quote-shape-2.png"
                       alt=""
                     />
                   </div>
                   <div className="get-quote__shape-3">
                     <img
-                      src="assets/images/shapes/get-quote-shape-3.png"
+                      src="../assets/images/shapes/get-quote-shape-3.png"
                       alt=""
                     />
                   </div>
