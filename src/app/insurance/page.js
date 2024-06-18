@@ -41,7 +41,9 @@ export default function Insurance() {
                 <div className="services-one__single">
                   <div className="services-one__title-box">
                     <h3 className="services-one__title">
-                      <Link href="health-insurance">Health Insurance</Link>
+                      <Link href="/insurance/health-insurance">
+                        Health Insurance
+                      </Link>
                     </h3>
                   </div>
                   <div className="services-one__img-box">
@@ -56,7 +58,7 @@ export default function Insurance() {
                     </div>
                   </div>
                   <div className="services-one__read-more">
-                    <Link href="health-insurance">
+                    <Link href="/insurance/health-insurance">
                       READ MORE<span className="icon-next"></span>
                     </Link>
                   </div>
@@ -68,7 +70,9 @@ export default function Insurance() {
                 <div className="services-one__single">
                   <div className="services-one__title-box">
                     <h3 className="services-one__title">
-                      <Link href="business-insurance">Business Insurance</Link>
+                      <Link href="/insurance/business-insurance">
+                        Business Insurance
+                      </Link>
                     </h3>
                   </div>
                   <div className="services-one__img-box">
@@ -83,7 +87,7 @@ export default function Insurance() {
                     </div>
                   </div>
                   <div className="services-one__read-more">
-                    <Link href="business-insurance">
+                    <Link href="/insurance/business-insurance">
                       READ MORE<span className="icon-next"></span>
                     </Link>
                   </div>
@@ -95,7 +99,7 @@ export default function Insurance() {
                 <div className="services-one__single">
                   <div className="services-one__title-box">
                     <h3 className="services-one__title">
-                      <Link href="car-insurance">Car Insurance</Link>
+                      <Link href="/insurance/car-insurance">Car Insurance</Link>
                     </h3>
                   </div>
                   <div className="services-one__img-box">
@@ -110,7 +114,7 @@ export default function Insurance() {
                     </div>
                   </div>
                   <div className="services-one__read-more">
-                    <Link href="car-insurance">
+                    <Link href="/insurance/car-insurance">
                       READ MORE<span className="icon-next"></span>
                     </Link>
                   </div>
@@ -122,7 +126,9 @@ export default function Insurance() {
                 <div className="services-one__single">
                   <div className="services-one__title-box">
                     <h3 className="services-one__title">
-                      <Link href="home-insurance">Home Insurance</Link>
+                      <Link href="/insurance/home-insurance">
+                        Home Insurance
+                      </Link>
                     </h3>
                   </div>
                   <div className="services-one__img-box">
@@ -137,7 +143,7 @@ export default function Insurance() {
                     </div>
                   </div>
                   <div className="services-one__read-more">
-                    <Link href="home-insurance">
+                    <Link href="/insurance/home-insurance">
                       READ MORE<span className="icon-next"></span>
                     </Link>
                   </div>
@@ -149,7 +155,9 @@ export default function Insurance() {
                 <div className="services-one__single">
                   <div className="services-one__title-box">
                     <h3 className="services-one__title">
-                      <Link href="family-insurance">Family Insurance</Link>
+                      <Link href="/insurance/family-insurance">
+                        Family Insurance
+                      </Link>
                     </h3>
                   </div>
                   <div className="services-one__img-box">
@@ -164,7 +172,7 @@ export default function Insurance() {
                     </div>
                   </div>
                   <div className="services-one__read-more">
-                    <Link href="family-insurance">
+                    <Link href="/insurance/family-insurance">
                       READ MORE<span className="icon-next"></span>
                     </Link>
                   </div>
