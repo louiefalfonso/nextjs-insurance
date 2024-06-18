@@ -28,7 +28,7 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="testimonial-one__client-name">
-                      <Link href="testimonial">Ononto Khan</Link>
+                      <Link href="/testimonials">Ononto Khan</Link>
                     </h3>
                     <p className="testimonial-one__client-sub-title">
                       Developer
@@ -58,7 +58,7 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="testimonial-one__client-name">
-                      <Link href="testimonial">Adam Smith</Link>
+                      <Link href="/testimonials">Adam Smith</Link>
                     </h3>
                     <p className="testimonial-one__client-sub-title">
                       Developer
@@ -88,7 +88,7 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="testimonial-one__client-name">
-                      <Link href="testimonial">Tamu Tamu</Link>
+                      <Link href="/testimonials">Tamu Tamu</Link>
                     </h3>
                     <p className="testimonial-one__client-sub-title">
                       Developer
@@ -118,7 +118,7 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="testimonial-one__client-name">
-                      <Link href="testimonial">Robert Spin</Link>
+                      <Link href="/testimonials">Robert Spin</Link>
                     </h3>
                     <p className="testimonial-one__client-sub-title">
                       Developer
@@ -148,7 +148,7 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="testimonial-one__client-name">
-                      <Link href="testimonial">Kavin Martin</Link>
+                      <Link href="/testimonials">Kavin Martin</Link>
                     </h3>
                     <p className="testimonial-one__client-sub-title">
                       Developer
@@ -178,7 +178,7 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="testimonial-one__client-name">
-                      <Link href="testimonial">Alisha Martin</Link>
+                      <Link href="/testimonials">Alisha Martin</Link>
                     </h3>
                     <p className="testimonial-one__client-sub-title">
                       Developer
@@ -207,7 +207,7 @@ export default function Home() {
                 <p>Try it risk free - We don’t charge cancellation fees</p>
               </div>
               <div className="cta-one__btn-box">
-                <Link href="contact" className="cta-one__btn thm-btn">
+                <Link href="/contact" className="cta-one__btn thm-btn">
                   GET YOUR FREE QUOTE NOW
                 </Link>
               </div>
