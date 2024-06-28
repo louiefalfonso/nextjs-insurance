@@ -17,11 +17,7 @@ export default function Menu() {
             About
           </Link>
         </li>
-        <li>
-          <Link className={pathname == "/teams" ? "active" : ""} href="/teams">
-            Teams
-          </Link>
-        </li>
+
         <li className="dropdown">
           <Link
             className={pathname == "/insurance" ? "active" : ""}
@@ -58,6 +54,11 @@ export default function Menu() {
               <Link href="/insurance/home-insurance">Home Insurance</Link>
             </li>
           </ul>
+        </li>
+        <li>
+          <Link className={pathname == "/teams" ? "active" : ""} href="/teams">
+            Teams
+          </Link>
         </li>
         <li>
           <Link className={pathname == "/faq" ? "active" : ""} href="/faq">
